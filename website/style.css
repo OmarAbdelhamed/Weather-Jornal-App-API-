@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(sky-sun-illustration-artwork-4k-ks-1920x1080.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.holderHeadline{
+    background-color: transparent;
+    
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 35% 35%;
+}
+.holderHeadline h1{
+    color: white;
+    opacity: 1;
+    font-size: 50px;
+    text-shadow: #000 0px 0px 3px;
+}
+
+#entry{
+    width: 50%;
+    background: #07133340;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 208px;
+    opacity: 0;
+    transition: all 2s ease; 
+}
+
+
+#entryHolder{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 60%;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5vw;
+}
+
+#zip,
+#feelings,
+#generate{
+    background: #17053866;
+    margin: 40px auto 0px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 15px;
+    resize: none;
+}
+
+
+
+.title{
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 20%;
+    margin-top: 18px;
+    background: #0a113a;
+    cursor: pointer;
+}
+
+textarea{
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Style for Placeholder Text*/
+#zip::placeholder,
+#feelings::placeholder{
+    color:white;
+    font-family: sans-serif;
+    line-height: 38px;
+}
+#temp,
+#city{
+    font-size: 4vw;
+}
+
+#content{
+    grid-column: 1 / -1;
+}
